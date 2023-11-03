@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#DDDDF0F3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lấy lại mật khẩu"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:textColor="#F44336"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập email"
+            android:background="@drawable/custom_edttext"/>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            app:backgroundTint="@null"
+            android:text="Gửi mât khẩu"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btnback"
+            app:backgroundTint="@null"
+            android:text="Huỷ"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

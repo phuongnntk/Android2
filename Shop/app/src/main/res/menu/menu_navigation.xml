@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mQLSP"
+    android:title="Quản lý sản phẩm"
+    android:icon="@drawable/ic_product"/>
+
+    <item android:id="@+id/mGioiThieu"
+        android:title="Giới thiệu"
+        android:icon="@drawable/ic_intro"/>
+    <item android:title="khác">
+        <menu>
+            <item
+                android:id="@+id/mCaiDat"
+                android:title="Cài đặt"
+                android:icon="@drawable/setting"/>
+
+            <item
+                android:id="@+id/mThoat"
+                android:title="Thoát"
+                android:icon="@drawable/logout"
+                />
+        </menu>
+    </item>
+</menu>

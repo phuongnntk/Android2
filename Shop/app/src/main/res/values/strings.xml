@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="forgot_password"><u>Forgot password ?</u></string>
+    <string name="signup"><u>Don\'t have an account ?<b> Sign Up</b></u></string>
+    <string name="Edit"> <u>Chỉnh sửa</u></string>
+    <string name="Del"> <u>Xoá</u></string>
+</resources>
